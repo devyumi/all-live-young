@@ -36,5 +36,9 @@ out/
 ### VS Code ###
 .vscode/
 
-# ignore application.properties
+### Custom ###
 application.properties
+gradle/wrapper
+gradlew
+gradlew.bat
+settings.gradle

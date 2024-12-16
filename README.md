@@ -20,7 +20,7 @@
 |**devyumi**|**AAA**|**BBB**|**CCC**|**DDD**|
 |:--:|:--:|:--:|:--:|:--:|
 |<img src="https://github.com/user-attachments/assets/3fbc1f50-87e5-40b6-a805-f7547da20a33" height=150 width=150>|<img src="https://github.com/user-attachments/assets/70e7bd30-8694-4450-b4dc-bed494804a29" height=150 width=150>|<img src="https://github.com/user-attachments/assets/70e7bd30-8694-4450-b4dc-bed494804a29" height=150 width=150> <br>|<img src="https://github.com/user-attachments/assets/70e7bd30-8694-4450-b4dc-bed494804a29" height=150 width=150>|<img src="https://github.com/user-attachments/assets/70e7bd30-8694-4450-b4dc-bed494804a29" height=150 width=150>|
-|대시보드, 재무 관리, <br> Spring Security|재고, 창고 관리|입고 관리|회원 관리, 고객센터|출고 관리|
+|대시보드<br>재무 관리<br>Spring Security|재고 관리<br>창고 관리|입고 관리|회원 관리<br>고객센터|출고 관리|
 
 </div>
 
@@ -43,35 +43,36 @@
 
 </div>
 
-<br>
+<br><br>
 
 ## 🎨 주요 기능
 
-### 대시보드
+### ➡️ 대시보드
 
 관리자는 `입출고 대기와 완료 건수`, `상위 5개 재고`, `월별 지출 내역` 등을 확인할 수 있습니다.
 <br><br>
 
-### 입고 관리
+### ➡️ 입고 관리
 
 사용자는 의약품, 파레트 수량, 박스 수량을 입력하여 입고 요청서를 작성할 수 있습니다.
+
 관리자는 입고 요청서를 확인하여 승인 및 반려를 진행할 수 있습니다.
 <br><br>
 
-### 재고 관리
+### ➡️ 재고 관리
 
 보관 온도(상온, 냉장, 냉동), 의약품 종류(마약성, 폭발물, 생물학적제재, 일반)별 의약품 재고를 확인할 수 있습니다.
 <br><br>
 
-### 재무 관리
+### ➡️ 재무 관리
 
 `지출 분류`, `지출일`, `창고`별 지출과 매출 현황을 확인할 수 있으며, `연간 총지출`, `연간 총매출`, `순수익` 등의 통계를 확인할 수 있습니다.
 <br><br>
 
-### 창고 관리
+### ➡️ 창고 관리
 
 한 지역에는 한 창고만 존재하며 Kakao Map으로 창고의 위치 및 상세 정보를 확인할 수 있습니다.
-<br><br>
+<br><br><br>
 
 ## ⚙ 개발 환경
 ### ✔️ Front
@@ -106,3 +107,6 @@
 ### ✔️ [Git Commit Message Rules](https://github.com/devyumi/all-live-young-wms/wiki/Git-Commit-Message-Rules)
 
 <br>
+
+## 🧩 트러블 슈팅
+- [MyBatis ResultMap을 사용해야 하는 이유](https://github.com/devyumi/all-live-young-wms/wiki/Trouble-Shooting:-MyBatis-ResultMap%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
